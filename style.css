@@ -1,0 +1,66 @@
+/* Configurações gerais */
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: #EFEFEF;
+	font-family: helvetica, sans-serif;
+}
+
+/* Cabeçalho e rodapé */
+header, footer {
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+	background-color: #1a610a;
+	overflow: hidden;
+}
+
+/* Navbar */
+#navbar {
+	width: 100%;
+	overflow: hidden;
+	background-color: #62b262;
+}
+#navbar ul {
+	list-style-type: none; /*Tira as bolinhas*/
+	padding: 0;
+	margin: 0;
+}
+#navbar ul li {
+	float: left; /*Pra ficar um do lado do outro*/
+}
+#navbar ul li a {
+	text-decoration: none; /*Tira formatação de link*/
+	padding: 14px 16px;
+	display: block;
+	color: #1a610a;
+}
+#navbar ul li a:hover { /*Mouse acima*/
+	background-color: #1a610a;
+	color: #62b262;
+}
+
+/* Colunas laterais */
+.coluna {
+	width: 20%;
+	float: left;
+	padding: 20px;
+}
+
+/* Coluna central */
+article {
+	width: 60%;
+	float: left;
+	background-color: #EFE;
+	padding: 20px;
+
+	text-align: justify;
+}
+
+footer {
+	text-align: right;
+	color: #222;
+	padding-top: 100px;
+}
